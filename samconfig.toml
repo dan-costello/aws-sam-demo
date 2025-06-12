@@ -15,13 +15,9 @@ lint = true
 [default.deploy.parameters]
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
-s3_prefix = "sam-app-v3-dan"
 region = "us-east-1"
 image_repositories = []
 stack_name = "sam-app-v3-dan"
-
-[default.package.parameters]
-resolve_s3 = true
 
 [default.sync.parameters]
 watch = true
