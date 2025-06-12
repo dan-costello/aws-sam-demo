@@ -12,12 +12,6 @@ parallel = true
 [default.validate.parameters]
 lint = true
 
-[default.deploy.parameters]
-capabilities = "CAPABILITY_IAM"
-confirm_changeset = true
-region = "us-east-1"
-image_repositories = []
-stack_name = "sam-app-v3-dan"
 
 [default.sync.parameters]
 watch = true
